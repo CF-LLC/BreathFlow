@@ -4,9 +4,8 @@ import "./globals.css"
 import DebugHelper from "@/components/debug-helper"
 
 export const metadata: Metadata = {
-  title: "v0 App",
-  description: "Created with v0",
-  generator: "v0.dev",
+  title: "Breath Flow",
+  description: "Breathing for the mind, body, and soul",
 }
 
 export default function RootLayout({

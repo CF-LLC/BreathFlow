@@ -7,6 +7,7 @@ import BreathingAnimation from "@/components/breathing-animation"
 import BreathingControls from "@/components/breathing-controls"
 import { Button } from "@/components/ui/button"
 import { ArrowLeft, Pause, Play } from "lucide-react"
+import { getBasePath } from "@/lib/get-base-path"
 
 // Define breathing pattern for Wim Hof method
 const wimHofPattern = {
@@ -27,6 +28,7 @@ export default function WimHofBreathingClientPage() {
   const [breathCount, setBreathCount] = useState(0)
   const [isHoldingBreath, setIsHoldingBreath] = useState(false)
   const [holdTime, setHoldTime] = useState(0)
+  const basePath = typeof window !== "undefined" ? getBasePath() : ""
 
   // Handle the breathing timer
   useEffect(() => {
@@ -109,7 +111,7 @@ export default function WimHofBreathingClientPage() {
 
         <div className="container mx-auto px-6 py-8">
           <a
-            href="/techniques"
+            href={`${basePath}/techniques`}
             className="bg-purple-600 hover:bg-purple-700 text-white mb-8 flex items-center px-4 py-2 rounded-md inline-block"
           >
             <ArrowLeft className="mr-2 h-4 w-4" />

@@ -7,8 +7,12 @@ import Navbar from "@/components/navbar"
 import { SparklesCore } from "@/components/sparkles"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Moon, Brain, Wind, Heart, Shield, Zap } from "lucide-react"
+import { getBasePath } from "@/lib/get-base-path"
 
 export default function TechniquesPage() {
+  // Get the base path for GitHub Pages
+  const basePath = typeof window !== "undefined" ? getBasePath() : ""
+
   return (
     <main className="min-h-screen bg-black/[0.96] antialiased bg-grid-white/[0.02] relative overflow-hidden">
       {/* Ambient background with moving particles */}
@@ -51,7 +55,7 @@ export default function TechniquesPage() {
               description="The perfect technique to calm your nervous system and prepare for sleep"
               icon={<Moon className="h-10 w-10 text-blue-400" />}
               color="from-blue-500 to-indigo-600"
-              path="/breathe/sleep"
+              path={`${basePath}/breathe/sleep`}
               benefits={["Improves sleep quality", "Reduces anxiety", "Lowers stress hormones"]}
             />
 
@@ -60,7 +64,7 @@ export default function TechniquesPage() {
               description="Deep belly breathing to aid digestion and relieve tension"
               icon={<Wind className="h-10 w-10 text-green-400" />}
               color="from-green-500 to-emerald-600"
-              path="/breathe/digestive"
+              path={`${basePath}/breathe/digestive`}
               benefits={["Improves digestion", "Reduces bloating", "Calms the gut-brain axis"]}
             />
 
@@ -69,7 +73,7 @@ export default function TechniquesPage() {
               description="Equal-timed breathing pattern to improve focus and mental clarity"
               icon={<Brain className="h-10 w-10 text-purple-400" />}
               color="from-purple-500 to-pink-600"
-              path="/breathe/focus"
+              path={`${basePath}/breathe/focus`}
               benefits={["Enhances concentration", "Reduces stress", "Improves cognitive function"]}
             />
 
@@ -78,7 +82,7 @@ export default function TechniquesPage() {
               description="Synchronize your breathing with your heart rate for optimal health"
               icon={<Heart className="h-10 w-10 text-red-400" />}
               color="from-red-500 to-pink-600"
-              path="/breathe/cardiac"
+              path={`${basePath}/breathe/cardiac`}
               benefits={["Regulates heart rate", "Lowers blood pressure", "Improves HRV"]}
             />
 
@@ -87,7 +91,7 @@ export default function TechniquesPage() {
               description="Controlled hyperventilation followed by breath retention to boost immunity"
               icon={<Shield className="h-10 w-10 text-cyan-400" />}
               color="from-cyan-500 to-blue-600"
-              path="/breathe/wimhof"
+              path={`${basePath}/breathe/wimhof`}
               benefits={["Strengthens immune system", "Increases energy", "Improves cold tolerance"]}
             />
 
@@ -96,7 +100,7 @@ export default function TechniquesPage() {
               description="Rapid breathing technique to energize the body and mind"
               icon={<Zap className="h-10 w-10 text-amber-400" />}
               color="from-amber-500 to-orange-600"
-              path="/breathe/fire"
+              path={`${basePath}/breathe/fire`}
               benefits={["Boosts energy", "Increases alertness", "Strengthens core muscles"]}
             />
           </div>

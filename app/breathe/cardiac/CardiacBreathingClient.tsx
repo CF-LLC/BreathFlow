@@ -6,6 +6,7 @@ import Navbar from "@/components/navbar"
 import BreathingAnimation from "@/components/breathing-animation"
 import BreathingControls from "@/components/breathing-controls"
 import { ArrowLeft } from "lucide-react"
+import { getBasePath } from "@/lib/get-base-path"
 
 // Define breathing pattern for cardiac coherence
 const cardiacPattern = {
@@ -23,6 +24,7 @@ export default function CardiacBreathingClient() {
   const [currentPhase, setCurrentPhase] = useState<"inhale" | "hold" | "exhale" | "holdAfterExhale">("inhale")
   const [secondsLeft, setSecondsLeft] = useState(cardiacPattern.inhale)
   const [totalCycles, setTotalCycles] = useState(0)
+  const basePath = typeof window !== "undefined" ? getBasePath() : ""
 
   // Handle the breathing timer
   useEffect(() => {
@@ -79,7 +81,7 @@ export default function CardiacBreathingClient() {
 
         <div className="container mx-auto px-6 py-8">
           <a
-            href="/techniques"
+            href={`${basePath}/techniques`}
             className="bg-purple-600 hover:bg-purple-700 text-white mb-8 flex items-center px-4 py-2 rounded-md inline-block"
           >
             <ArrowLeft className="mr-2 h-4 w-4" />

@@ -5,9 +5,12 @@ import Navbar from "@/components/navbar"
 import { SparklesCore } from "@/components/sparkles"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Card, CardContent } from "@/components/ui/card"
-import Image from "next/image"
+import { getBasePath } from "@/lib/get-base-path"
 
 export default function SciencePage() {
+  // Get the base path for GitHub Pages
+  const basePath = typeof window !== "undefined" ? getBasePath() : ""
+
   return (
     <main className="min-h-screen bg-black/[0.96] antialiased bg-grid-white/[0.02] relative overflow-hidden">
       {/* Ambient background with moving particles */}
@@ -89,8 +92,9 @@ export default function SciencePage() {
                       </p>
                     </div>
                     <div className="flex items-center justify-center">
-                      <Image
-                        src="/nervous-system-breathing.png"
+                      {/* Fix image path with basePath */}
+                      <img
+                        src={`${basePath}/nervous-system-breathing.png`}
                         alt="Nervous System Diagram"
                         width={400}
                         height={300}
@@ -107,8 +111,9 @@ export default function SciencePage() {
                 <CardContent className="pt-6">
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                     <div className="flex items-center justify-center">
-                      <Image
-                        src="/brain-scan-deep-breathing.png"
+                      {/* Fix image path with basePath */}
+                      <img
+                        src={`${basePath}/brain-scan-deep-breathing.png`}
                         alt="Brain Function Diagram"
                         width={400}
                         height={300}

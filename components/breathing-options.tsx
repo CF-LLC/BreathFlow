@@ -5,11 +5,12 @@ import type React from "react"
 import { motion } from "framer-motion"
 import { Moon, Brain, Wind } from "lucide-react"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-
-// Get the base path from environment or default to empty string
-const basePath = process.env.GITHUB_REPOSITORY ? `/${process.env.GITHUB_REPOSITORY.split("/")[1]}` : ""
+import { getBasePath } from "@/lib/get-base-path"
 
 export default function BreathingOptions() {
+  // Get the base path for GitHub Pages
+  const basePath = typeof window !== "undefined" ? getBasePath() : ""
+
   return (
     <div className="container mx-auto px-6 py-12">
       <motion.div

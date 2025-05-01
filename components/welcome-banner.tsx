@@ -1,8 +1,11 @@
 "use client"
 
 import { motion } from "framer-motion"
+import { getBasePath } from "@/lib/get-base-path"
 
 export default function WelcomeBanner() {
+  const basePath = typeof window !== "undefined" ? getBasePath() : ""
+
   return (
     <div className="container mx-auto px-6 py-6 mb-8">
       <motion.div
@@ -19,7 +22,7 @@ export default function WelcomeBanner() {
             </p>
           </div>
           <div className="whitespace-nowrap bg-gradient-to-r from-purple-500 to-pink-600 hover:opacity-90 text-white font-medium text-base px-6 py-2 rounded-md inline-block">
-            <a href="/techniques" className="text-white block w-full h-full">
+            <a href={`${basePath}/techniques`} className="text-white block w-full h-full">
               See All Techniques
             </a>
           </div>

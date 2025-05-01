@@ -6,6 +6,9 @@ import { motion } from "framer-motion"
 import { Moon, Brain, Wind } from "lucide-react"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 
+// Get the base path from environment or default to empty string
+const basePath = process.env.GITHUB_REPOSITORY ? `/${process.env.GITHUB_REPOSITORY.split("/")[1]}` : ""
+
 export default function BreathingOptions() {
   return (
     <div className="container mx-auto px-6 py-12">
@@ -30,7 +33,7 @@ export default function BreathingOptions() {
           description="Calm your mind and prepare for restful sleep with 4-7-8 breathing"
           icon={<Moon className="h-12 w-12 text-blue-400" />}
           color="from-blue-500 to-indigo-600"
-          path="/breathe/sleep"
+          path={`${basePath}/breathe/sleep`}
         />
 
         <BreathingCard
@@ -38,7 +41,7 @@ export default function BreathingOptions() {
           description="Ease tension and promote healthy digestion with diaphragmatic breathing"
           icon={<Wind className="h-12 w-12 text-green-400" />}
           color="from-green-500 to-emerald-600"
-          path="/breathe/digestive"
+          path={`${basePath}/breathe/digestive`}
         />
 
         <BreathingCard
@@ -46,13 +49,13 @@ export default function BreathingOptions() {
           description="Sharpen your mind and improve concentration with box breathing"
           icon={<Brain className="h-12 w-12 text-purple-400" />}
           color="from-purple-500 to-pink-600"
-          path="/breathe/focus"
+          path={`${basePath}/breathe/focus`}
         />
       </div>
 
       <div className="mt-12 text-center">
         <a
-          href="/techniques"
+          href={`${basePath}/techniques`}
           className="bg-purple-600 hover:bg-purple-700 text-white font-medium text-base px-8 py-6 rounded-md inline-block"
         >
           Explore All 6 Breathing Techniques

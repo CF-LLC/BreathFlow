@@ -6,6 +6,9 @@ import { motion } from "framer-motion"
 import { useState } from "react"
 import type React from "react"
 
+// Get the base path from environment or default to empty string
+const basePath = process.env.GITHUB_REPOSITORY ? `/${process.env.GITHUB_REPOSITORY.split("/")[1]}` : ""
+
 export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
@@ -15,20 +18,20 @@ export default function Navbar() {
       animate={{ y: 0 }}
       className="flex items-center justify-between px-6 py-4 backdrop-blur-sm border-b border-white/10"
     >
-      <a href="/" className="flex items-center space-x-2">
+      <a href={`${basePath}/`} className="flex items-center space-x-2">
         <Wind className="w-8 h-8 text-purple-500" />
         <span className="text-white font-medium text-xl">BreathFlow</span>
       </a>
 
       <div className="hidden md:flex items-center space-x-8">
-        <NavLink href="/techniques">Techniques</NavLink>
-        <NavLink href="/benefits">Benefits</NavLink>
-        <NavLink href="/science">The Science</NavLink>
+        <NavLink href={`${basePath}/techniques`}>Techniques</NavLink>
+        <NavLink href={`${basePath}/benefits`}>Benefits</NavLink>
+        <NavLink href={`${basePath}/science`}>The Science</NavLink>
       </div>
 
       <div className="hidden md:flex items-center space-x-4">
         <div className="bg-purple-600 hover:bg-purple-700 text-white font-medium px-4 py-2 rounded-md inline-block">
-          <a href="/techniques" className="text-white block w-full h-full">
+          <a href={`${basePath}/techniques`} className="text-white block w-full h-full">
             Start Breathing
           </a>
         </div>
@@ -47,13 +50,13 @@ export default function Navbar() {
       {mobileMenuOpen && (
         <div className="md:hidden absolute top-16 left-0 right-0 bg-black/95 backdrop-blur-md border-b border-white/10 z-50">
           <div className="flex flex-col p-6 space-y-4">
-            <MobileNavLink href="/techniques" onClick={() => setMobileMenuOpen(false)}>
+            <MobileNavLink href={`${basePath}/techniques`} onClick={() => setMobileMenuOpen(false)}>
               Techniques
             </MobileNavLink>
-            <MobileNavLink href="/benefits" onClick={() => setMobileMenuOpen(false)}>
+            <MobileNavLink href={`${basePath}/benefits`} onClick={() => setMobileMenuOpen(false)}>
               Benefits
             </MobileNavLink>
-            <MobileNavLink href="/science" onClick={() => setMobileMenuOpen(false)}>
+            <MobileNavLink href={`${basePath}/science`} onClick={() => setMobileMenuOpen(false)}>
               The Science
             </MobileNavLink>
           </div>

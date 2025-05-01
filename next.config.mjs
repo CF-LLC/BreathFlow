@@ -18,7 +18,7 @@ const nextConfig = {
     ignoreBuildErrors: true,
   },
   // Add assetPrefix for GitHub Pages
-  assetPrefix: process.env.GITHUB_REPOSITORY ? `https://${process.env.GITHUB_REPOSITORY.split('/')[0]}.github.io/${process.env.GITHUB_REPOSITORY.split('/')[1]}` : '',
+  assetPrefix: process.env.GITHUB_REPOSITORY ? `/${process.env.GITHUB_REPOSITORY.split('/')[1]}` : '',
 }
 
 export default nextConfig

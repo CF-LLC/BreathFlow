@@ -28,6 +28,9 @@ jobs:
       - name: Create .nojekyll file
         run: touch out/.nojekyll
 
+      - name: Copy 404.html to output directory
+        run: cp public/404.html out/404.html
+
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
         with:

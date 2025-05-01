@@ -3,14 +3,14 @@
     "/_not-found/page": [
       "static/chunks/webpack-c81f7fd28659d64f.js",
       "static/chunks/fd9d1056-ed5fdda155689b3b.js",
-      "static/chunks/117-41ef6b3a72740d77.js",
+      "static/chunks/117-0ea79a9981015496.js",
       "static/chunks/main-app-a04dffec9121eafd.js",
       "static/chunks/app/_not-found/page-15b4eb43e2651f0b.js"
     ],
     "/layout": [
       "static/chunks/webpack-c81f7fd28659d64f.js",
       "static/chunks/fd9d1056-ed5fdda155689b3b.js",
-      "static/chunks/117-41ef6b3a72740d77.js",
+      "static/chunks/117-0ea79a9981015496.js",
       "static/chunks/main-app-a04dffec9121eafd.js",
       "static/css/a9a3b5d4e3b32980.css",
       "static/chunks/app/layout-4b1a702181f66202.js"
@@ -18,23 +18,15 @@
     "/benefits/page": [
       "static/chunks/webpack-c81f7fd28659d64f.js",
       "static/chunks/fd9d1056-ed5fdda155689b3b.js",
-      "static/chunks/117-41ef6b3a72740d77.js",
+      "static/chunks/117-0ea79a9981015496.js",
       "static/chunks/main-app-a04dffec9121eafd.js",
       "static/chunks/494-021bed334b97d896.js",
       "static/chunks/app/benefits/page-155fa9602ebd773b.js"
     ],
-    "/page": [
-      "static/chunks/webpack-c81f7fd28659d64f.js",
-      "static/chunks/fd9d1056-ed5fdda155689b3b.js",
-      "static/chunks/117-41ef6b3a72740d77.js",
-      "static/chunks/main-app-a04dffec9121eafd.js",
-      "static/chunks/494-021bed334b97d896.js",
-      "static/chunks/app/page-e5d15e878d5e906a.js"
-    ],
     "/techniques/page": [
       "static/chunks/webpack-c81f7fd28659d64f.js",
       "static/chunks/fd9d1056-ed5fdda155689b3b.js",
-      "static/chunks/117-41ef6b3a72740d77.js",
+      "static/chunks/117-0ea79a9981015496.js",
       "static/chunks/main-app-a04dffec9121eafd.js",
       "static/chunks/494-021bed334b97d896.js",
       "static/chunks/app/techniques/page-2b69d16e30b9cb76.js"
@@ -42,54 +34,62 @@
     "/test-page/page": [
       "static/chunks/webpack-c81f7fd28659d64f.js",
       "static/chunks/fd9d1056-ed5fdda155689b3b.js",
-      "static/chunks/117-41ef6b3a72740d77.js",
+      "static/chunks/117-0ea79a9981015496.js",
       "static/chunks/main-app-a04dffec9121eafd.js",
       "static/chunks/app/test-page/page-c842ca490221969d.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-c81f7fd28659d64f.js",
+      "static/chunks/fd9d1056-ed5fdda155689b3b.js",
+      "static/chunks/117-0ea79a9981015496.js",
+      "static/chunks/main-app-a04dffec9121eafd.js",
+      "static/chunks/494-021bed334b97d896.js",
+      "static/chunks/app/page-e5d15e878d5e906a.js"
     ],
     "/science/page": [
       "static/chunks/webpack-c81f7fd28659d64f.js",
       "static/chunks/fd9d1056-ed5fdda155689b3b.js",
-      "static/chunks/117-41ef6b3a72740d77.js",
+      "static/chunks/117-0ea79a9981015496.js",
       "static/chunks/main-app-a04dffec9121eafd.js",
       "static/chunks/494-021bed334b97d896.js",
-      "static/chunks/145-2bea1c92762ab049.js",
+      "static/chunks/145-821deab1ec383729.js",
       "static/chunks/app/science/page-b4b6f04e320c65b5.js"
-    ],
-    "/breathe/wimhof/page": [
-      "static/chunks/webpack-c81f7fd28659d64f.js",
-      "static/chunks/fd9d1056-ed5fdda155689b3b.js",
-      "static/chunks/117-41ef6b3a72740d77.js",
-      "static/chunks/main-app-a04dffec9121eafd.js",
-      "static/chunks/494-021bed334b97d896.js",
-      "static/chunks/729-d2a6ad8719115f0f.js",
-      "static/chunks/app/breathe/wimhof/page-4949438f641eee43.js"
     ],
     "/breathe/cardiac/page": [
       "static/chunks/webpack-c81f7fd28659d64f.js",
       "static/chunks/fd9d1056-ed5fdda155689b3b.js",
-      "static/chunks/117-41ef6b3a72740d77.js",
+      "static/chunks/117-0ea79a9981015496.js",
       "static/chunks/main-app-a04dffec9121eafd.js",
       "static/chunks/494-021bed334b97d896.js",
       "static/chunks/729-d2a6ad8719115f0f.js",
       "static/chunks/app/breathe/cardiac/page-0c0bb67a8866e66f.js"
     ],
-    "/breathe/fire/page": [
+    "/breathe/wimhof/page": [
       "static/chunks/webpack-c81f7fd28659d64f.js",
       "static/chunks/fd9d1056-ed5fdda155689b3b.js",
-      "static/chunks/117-41ef6b3a72740d77.js",
+      "static/chunks/117-0ea79a9981015496.js",
       "static/chunks/main-app-a04dffec9121eafd.js",
       "static/chunks/494-021bed334b97d896.js",
       "static/chunks/729-d2a6ad8719115f0f.js",
-      "static/chunks/app/breathe/fire/page-7f4e1fdd193c0d34.js"
+      "static/chunks/app/breathe/wimhof/page-4949438f641eee43.js"
     ],
     "/breathe/[technique]/page": [
       "static/chunks/webpack-c81f7fd28659d64f.js",
       "static/chunks/fd9d1056-ed5fdda155689b3b.js",
-      "static/chunks/117-41ef6b3a72740d77.js",
+      "static/chunks/117-0ea79a9981015496.js",
       "static/chunks/main-app-a04dffec9121eafd.js",
       "static/chunks/494-021bed334b97d896.js",
       "static/chunks/729-d2a6ad8719115f0f.js",
       "static/chunks/app/breathe/[technique]/page-c680b3bd7e81947b.js"
+    ],
+    "/breathe/fire/page": [
+      "static/chunks/webpack-c81f7fd28659d64f.js",
+      "static/chunks/fd9d1056-ed5fdda155689b3b.js",
+      "static/chunks/117-0ea79a9981015496.js",
+      "static/chunks/main-app-a04dffec9121eafd.js",
+      "static/chunks/494-021bed334b97d896.js",
+      "static/chunks/729-d2a6ad8719115f0f.js",
+      "static/chunks/app/breathe/fire/page-7f4e1fdd193c0d34.js"
     ]
   }
 }

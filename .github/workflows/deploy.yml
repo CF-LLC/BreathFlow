@@ -22,6 +22,11 @@ jobs:
 
       - name: Build
         run: npm run build
+        env:
+          GITHUB_REPOSITORY: ${{ github.repository }}
+
+      - name: Create .nojekyll file
+        run: touch out/.nojekyll
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4

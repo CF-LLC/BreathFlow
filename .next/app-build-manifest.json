@@ -1,27 +1,11 @@
 {
   "pages": {
-    "/benefits/page": [
-      "static/chunks/webpack-29957205745576aa.js",
-      "static/chunks/fd9d1056-ed5fdda155689b3b.js",
-      "static/chunks/117-0ea79a9981015496.js",
-      "static/chunks/main-app-a04dffec9121eafd.js",
-      "static/chunks/141-c728dcfc57ec4cc6.js",
-      "static/chunks/app/benefits/page-2367f8c20c4a8b0c.js"
-    ],
-    "/layout": [
-      "static/chunks/webpack-29957205745576aa.js",
-      "static/chunks/fd9d1056-ed5fdda155689b3b.js",
-      "static/chunks/117-0ea79a9981015496.js",
-      "static/chunks/main-app-a04dffec9121eafd.js",
-      "static/css/a9a3b5d4e3b32980.css",
-      "static/chunks/app/layout-4b1a702181f66202.js"
-    ],
     "/not-found": [
       "static/chunks/webpack-29957205745576aa.js",
       "static/chunks/fd9d1056-ed5fdda155689b3b.js",
       "static/chunks/117-0ea79a9981015496.js",
       "static/chunks/main-app-a04dffec9121eafd.js",
-      "static/chunks/app/not-found-605deefc33f34a1e.js"
+      "static/chunks/app/not-found-ae712eedf9d835cf.js"
     ],
     "/_not-found/page": [
       "static/chunks/webpack-29957205745576aa.js",
@@ -30,13 +14,21 @@
       "static/chunks/main-app-a04dffec9121eafd.js",
       "static/chunks/app/_not-found/page-0991e032a2243e94.js"
     ],
-    "/page": [
+    "/layout": [
+      "static/chunks/webpack-29957205745576aa.js",
+      "static/chunks/fd9d1056-ed5fdda155689b3b.js",
+      "static/chunks/117-0ea79a9981015496.js",
+      "static/chunks/main-app-a04dffec9121eafd.js",
+      "static/css/03a52a9824b5300d.css",
+      "static/chunks/app/layout-4b1a702181f66202.js"
+    ],
+    "/benefits/page": [
       "static/chunks/webpack-29957205745576aa.js",
       "static/chunks/fd9d1056-ed5fdda155689b3b.js",
       "static/chunks/117-0ea79a9981015496.js",
       "static/chunks/main-app-a04dffec9121eafd.js",
       "static/chunks/141-c728dcfc57ec4cc6.js",
-      "static/chunks/app/page-494c5600152d75ae.js"
+      "static/chunks/app/benefits/page-2367f8c20c4a8b0c.js"
     ],
     "/techniques/page": [
       "static/chunks/webpack-29957205745576aa.js",
@@ -44,7 +36,23 @@
       "static/chunks/117-0ea79a9981015496.js",
       "static/chunks/main-app-a04dffec9121eafd.js",
       "static/chunks/141-c728dcfc57ec4cc6.js",
-      "static/chunks/app/techniques/page-c69426a52888bb8c.js"
+      "static/chunks/app/techniques/page-50ac7d9dfcc6dc72.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-29957205745576aa.js",
+      "static/chunks/fd9d1056-ed5fdda155689b3b.js",
+      "static/chunks/117-0ea79a9981015496.js",
+      "static/chunks/main-app-a04dffec9121eafd.js",
+      "static/chunks/141-c728dcfc57ec4cc6.js",
+      "static/chunks/app/page-4f2adc99234d0d2b.js"
+    ],
+    "/science/page": [
+      "static/chunks/webpack-29957205745576aa.js",
+      "static/chunks/fd9d1056-ed5fdda155689b3b.js",
+      "static/chunks/117-0ea79a9981015496.js",
+      "static/chunks/main-app-a04dffec9121eafd.js",
+      "static/chunks/141-c728dcfc57ec4cc6.js",
+      "static/chunks/app/science/page-bf9c051a5423c02b.js"
     ],
     "/test-page/page": [
       "static/chunks/webpack-29957205745576aa.js",
@@ -53,40 +61,14 @@
       "static/chunks/main-app-a04dffec9121eafd.js",
       "static/chunks/app/test-page/page-338eee5921eb31a0.js"
     ],
-    "/science/page": [
-      "static/chunks/webpack-29957205745576aa.js",
-      "static/chunks/fd9d1056-ed5fdda155689b3b.js",
-      "static/chunks/117-0ea79a9981015496.js",
-      "static/chunks/main-app-a04dffec9121eafd.js",
-      "static/chunks/141-c728dcfc57ec4cc6.js",
-      "static/chunks/app/science/page-701e0a731eb506f9.js"
-    ],
-    "/breathe/wimhof/page": [
-      "static/chunks/webpack-29957205745576aa.js",
-      "static/chunks/fd9d1056-ed5fdda155689b3b.js",
-      "static/chunks/117-0ea79a9981015496.js",
-      "static/chunks/main-app-a04dffec9121eafd.js",
-      "static/chunks/141-c728dcfc57ec4cc6.js",
-      "static/chunks/181-26fbcff1f473f4b9.js",
-      "static/chunks/app/breathe/wimhof/page-197caa65cd0c2654.js"
-    ],
     "/breathe/fire/page": [
       "static/chunks/webpack-29957205745576aa.js",
       "static/chunks/fd9d1056-ed5fdda155689b3b.js",
       "static/chunks/117-0ea79a9981015496.js",
       "static/chunks/main-app-a04dffec9121eafd.js",
       "static/chunks/141-c728dcfc57ec4cc6.js",
-      "static/chunks/181-26fbcff1f473f4b9.js",
+      "static/chunks/181-b42e5279342468a1.js",
       "static/chunks/app/breathe/fire/page-91483914132de79e.js"
-    ],
-    "/breathe/[technique]/page": [
-      "static/chunks/webpack-29957205745576aa.js",
-      "static/chunks/fd9d1056-ed5fdda155689b3b.js",
-      "static/chunks/117-0ea79a9981015496.js",
-      "static/chunks/main-app-a04dffec9121eafd.js",
-      "static/chunks/141-c728dcfc57ec4cc6.js",
-      "static/chunks/181-26fbcff1f473f4b9.js",
-      "static/chunks/app/breathe/[technique]/page-dbfd8b672be12288.js"
     ],
     "/breathe/cardiac/page": [
       "static/chunks/webpack-29957205745576aa.js",
@@ -94,8 +76,26 @@
       "static/chunks/117-0ea79a9981015496.js",
       "static/chunks/main-app-a04dffec9121eafd.js",
       "static/chunks/141-c728dcfc57ec4cc6.js",
-      "static/chunks/181-26fbcff1f473f4b9.js",
+      "static/chunks/181-b42e5279342468a1.js",
       "static/chunks/app/breathe/cardiac/page-a5a470a71389392e.js"
+    ],
+    "/breathe/[technique]/page": [
+      "static/chunks/webpack-29957205745576aa.js",
+      "static/chunks/fd9d1056-ed5fdda155689b3b.js",
+      "static/chunks/117-0ea79a9981015496.js",
+      "static/chunks/main-app-a04dffec9121eafd.js",
+      "static/chunks/141-c728dcfc57ec4cc6.js",
+      "static/chunks/181-b42e5279342468a1.js",
+      "static/chunks/app/breathe/[technique]/page-dbfd8b672be12288.js"
+    ],
+    "/breathe/wimhof/page": [
+      "static/chunks/webpack-29957205745576aa.js",
+      "static/chunks/fd9d1056-ed5fdda155689b3b.js",
+      "static/chunks/117-0ea79a9981015496.js",
+      "static/chunks/main-app-a04dffec9121eafd.js",
+      "static/chunks/141-c728dcfc57ec4cc6.js",
+      "static/chunks/181-b42e5279342468a1.js",
+      "static/chunks/app/breathe/wimhof/page-197caa65cd0c2654.js"
     ]
   }
 }

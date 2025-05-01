@@ -1,12 +1,12 @@
 {
-  "/benefits/page": "app/benefits/page.js",
   "/_not-found/page": "app/_not-found/page.js",
-  "/page": "app/page.js",
+  "/benefits/page": "app/benefits/page.js",
   "/techniques/page": "app/techniques/page.js",
-  "/test-page/page": "app/test-page/page.js",
+  "/page": "app/page.js",
   "/science/page": "app/science/page.js",
-  "/breathe/wimhof/page": "app/breathe/wimhof/page.js",
+  "/test-page/page": "app/test-page/page.js",
   "/breathe/fire/page": "app/breathe/fire/page.js",
+  "/breathe/cardiac/page": "app/breathe/cardiac/page.js",
   "/breathe/[technique]/page": "app/breathe/[technique]/page.js",
-  "/breathe/cardiac/page": "app/breathe/cardiac/page.js"
+  "/breathe/wimhof/page": "app/breathe/wimhof/page.js"
 }

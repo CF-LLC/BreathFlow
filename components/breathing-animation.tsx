@@ -12,6 +12,10 @@ interface BreathingAnimationProps {
     exhale: number
     holdAfterExhale?: number
     color: string
+    // Add these properties to match what we're passing
+    name?: string
+    description?: string
+    textColor?: string
   }
 }
 

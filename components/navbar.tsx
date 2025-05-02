@@ -5,9 +5,10 @@ import { Wind, Menu, X } from "lucide-react"
 import { motion } from "framer-motion"
 import { useState } from "react"
 import type React from "react"
+import { getBasePath } from "@/lib/get-base-path"
 
 // Get the base path from environment or default to empty string
-const basePath = process.env.GITHUB_REPOSITORY ? `/${process.env.GITHUB_REPOSITORY.split("/")[1]}` : ""
+const basePath = getBasePath()
 
 export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)

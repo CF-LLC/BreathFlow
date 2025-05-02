@@ -1,5 +1,5 @@
 {
   "headers": {
-    "x-next-cache-tags": "_N_T_/layout,_N_T_/breathe/layout,_N_T_/breathe/cardiac/layout,_N_T_/breathe/cardiac/page,_N_T_/breathe/cardiac/"
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/breathe/layout,_N_T_/breathe/[technique]/layout,_N_T_/breathe/[technique]/page,_N_T_/breathe/cardiac/"
   }
 }

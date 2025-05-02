@@ -4,7 +4,9 @@
   <meta charset="utf-8">
   <title>Redirecting...</title>
   <script>
-    window.location.href = '/BreathFlow/breathe/wimhof/';
+    if (window.location.pathname !== '/BreathFlow/breathe/wimhof/') {
+      window.location.href = '/BreathFlow/breathe/wimhof/';
+    }
   </script>
 </head>
 <body>

@@ -44,7 +44,7 @@ const breathingPatterns = {
 export default function BreathingExercisePageClient({ params }: { params: { technique: string } }) {
   const router = useRouter()
   const technique = params.technique as string
-  const basePath = typeof window !== "undefined" ? getBasePath() : ""
+  const basePath = getBasePath()
 
   const [isActive, setIsActive] = useState(false)
   const [currentPhase, setCurrentPhase] = useState<"inhale" | "hold" | "exhale" | "holdAfterExhale">("inhale")

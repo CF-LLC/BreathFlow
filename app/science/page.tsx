@@ -9,7 +9,7 @@ import { getBasePath } from "@/lib/get-base-path"
 
 export default function SciencePage() {
   // Get the base path for GitHub Pages
-  const basePath = typeof window !== "undefined" ? getBasePath() : ""
+  const basePath = getBasePath()
 
   return (
     <main className="min-h-screen bg-black/[0.96] antialiased bg-grid-white/[0.02] relative overflow-hidden">

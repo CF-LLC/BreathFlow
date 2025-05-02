@@ -9,7 +9,7 @@
     if (currentPath.includes('/breathe/') && !currentPath.startsWith('/BreathFlow/')) {
       const correctedPath = currentPath.replace(/^\/[^/]+\//, '/BreathFlow/');
       window.location.href = correctedPath;
-    } else {
+    } else if (!currentPath.startsWith('/BreathFlow/')) {
       window.location.href = '/BreathFlow/';
     }
   </script>

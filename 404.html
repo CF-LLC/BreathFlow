@@ -4,17 +4,14 @@
   <meta charset="utf-8">
   <title>Redirecting...</title>
   <script>
-    const repoName = location.pathname.split('/')[1];
-    const pathSegmentsToKeep = 1;
-    const l = window.location;
+    const currentPath = window.location.pathname;
   
-    l.replace(
-      l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
-      '/' + repoName + '/' +
-      l.pathname.split('/').slice(pathSegmentsToKeep + 1).join('/') +
-      (l.search ? '&' + l.search.slice(1) : '') +
-      l.hash
-    );
+    if (currentPath.includes('/breathe/') && !currentPath.startsWith('/BreathFlow/')) {
+      const correctedPath = currentPath.replace(/^\/[^/]+\//, '/BreathFlow/');
+      window.location.href = correctedPath;
+    } else {
+      window.location.href = '/BreathFlow/';
+    }
   </script>
 </head>
 <body>

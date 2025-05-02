@@ -4,20 +4,16 @@
   <meta charset="utf-8">
   <title>Redirecting...</title>
   <script>
-    // This script handles case sensitivity issues with GitHub Pages
-    
-    // Get the current path
     const currentPath = window.location.pathname;
-    
-    // Check if we need to redirect (if path contains /breathe/ but not /BreathFlow/)
-    if (currentPath.includes('/breathe/') && !currentPath.includes('/BreathFlow/')) {
-      // Fix the path by replacing the incorrect repository name with the correct one
+  
+    if (currentPath.includes('/breathe/') && !currentPath.startsWith('/BreathFlow/')) {
       const correctedPath = currentPath.replace(/^\/[^/]+\//, '/BreathFlow/');
       window.location.href = correctedPath;
     } else {
-      // If no specific redirect needed, go to home
       window.location.href = '/BreathFlow/';
     }
+    // Add a console log for debugging purposes
+    console.log('Redirecting to /BreathFlow/');
   </script>
 </head>
 <body>

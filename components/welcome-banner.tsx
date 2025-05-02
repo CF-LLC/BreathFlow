@@ -4,7 +4,7 @@ import { motion } from "framer-motion"
 import { getBasePath } from "@/lib/get-base-path"
 
 export default function WelcomeBanner() {
-  const basePath = typeof window !== "undefined" ? getBasePath() : ""
+  const basePath = getBasePath()
 
   return (
     <div className="container mx-auto px-6 py-6 mb-8">

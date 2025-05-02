@@ -39,15 +39,16 @@ jobs:
           mkdir -p out/breathe/cardiac
           mkdir -p out/breathe/wimhof
           mkdir -p out/breathe/fire
-
+      
       - name: Copy redirect files
         run: |
-          cp public/breathe/sleep/index.html out/breathe/sleep/index.html
-          cp public/breathe/focus/index.html out/breathe/focus/index.html
-          cp public/breathe/digestive/index.html out/breathe/digestive/index.html
-          cp public/breathe/cardiac/index.html out/breathe/cardiac/index.html
-          cp public/breathe/wimhof/index.html out/breathe/wimhof/index.html
-          cp public/breathe/fire/index.html out/breathe/fire/index.html
+          # Remove these lines since redirect files are no longer needed
+          # cp public/breathe/sleep/index.html out/breathe/sleep/index.html
+          # cp public/breathe/focus/index.html out/breathe/focus/index.html
+          # cp public/breathe/digestive/index.html out/breathe/digestive/index.html
+          # cp public/breathe/cardiac/index.html out/breathe/cardiac/index.html
+          # cp public/breathe/wimhof/index.html out/breathe/wimhof/index.html
+          # cp public/breathe/fire/index.html out/breathe/fire/index.html
           cp public/redirect.html out/redirect.html
 
       - name: Deploy

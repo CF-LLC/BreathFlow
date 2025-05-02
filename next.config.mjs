@@ -1,8 +1,9 @@
 /** @type {import('next').NextConfig} */
+
+const isProd = process.env.NODE_ENV === 'production';
+
 const nextConfig = {
   output: 'export',
-  // Set the correct base path for GitHub Pages
-  basePath: process.env.GITHUB_REPOSITORY ? `/${process.env.GITHUB_REPOSITORY.split('/')[1]}` : '',
   // Add trailing slashes for better compatibility with GitHub Pages
   trailingSlash: true,
   // Disable image optimization since it requires server components
@@ -17,8 +18,8 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
-  // Add assetPrefix for GitHub Pages
-  assetPrefix: process.env.GITHUB_REPOSITORY ? `/${process.env.GITHUB_REPOSITORY.split('/')[1]}` : '',
+  basePath: isProd ? '/BreathFlow' : '',
+  assetPrefix: isProd ? '/BreathFlow' : '',
 }
 
 export default nextConfig

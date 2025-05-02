@@ -9,7 +9,7 @@ import { getBasePath } from "@/lib/get-base-path"
 
 export default function BreathingOptions() {
   // Get the base path for GitHub Pages
-  const basePath = typeof window !== "undefined" ? getBasePath() : ""
+  const basePath = getBasePath()
 
   return (
     <div className="container mx-auto px-6 py-12">

@@ -22,12 +22,28 @@
       "static/css/03a52a9824b5300d.css",
       "static/chunks/app/layout-4b1a702181f66202.js"
     ],
+    "/benefits/page": [
+      "static/chunks/webpack-e6e4aca58fee368a.js",
+      "static/chunks/fd9d1056-ed5fdda155689b3b.js",
+      "static/chunks/117-b257473b6e8d511a.js",
+      "static/chunks/main-app-a04dffec9121eafd.js",
+      "static/chunks/141-c728dcfc57ec4cc6.js",
+      "static/chunks/app/benefits/page-2367f8c20c4a8b0c.js"
+    ],
     "/test-page/page": [
       "static/chunks/webpack-e6e4aca58fee368a.js",
       "static/chunks/fd9d1056-ed5fdda155689b3b.js",
       "static/chunks/117-b257473b6e8d511a.js",
       "static/chunks/main-app-a04dffec9121eafd.js",
       "static/chunks/app/test-page/page-338eee5921eb31a0.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-e6e4aca58fee368a.js",
+      "static/chunks/fd9d1056-ed5fdda155689b3b.js",
+      "static/chunks/117-b257473b6e8d511a.js",
+      "static/chunks/main-app-a04dffec9121eafd.js",
+      "static/chunks/141-c728dcfc57ec4cc6.js",
+      "static/chunks/app/page-6cb8d93a54a845c3.js"
     ],
     "/techniques/page": [
       "static/chunks/webpack-e6e4aca58fee368a.js",
@@ -37,22 +53,6 @@
       "static/chunks/141-c728dcfc57ec4cc6.js",
       "static/chunks/app/techniques/page-1671b587b8f436d3.js"
     ],
-    "/page": [
-      "static/chunks/webpack-e6e4aca58fee368a.js",
-      "static/chunks/fd9d1056-ed5fdda155689b3b.js",
-      "static/chunks/117-b257473b6e8d511a.js",
-      "static/chunks/main-app-a04dffec9121eafd.js",
-      "static/chunks/141-c728dcfc57ec4cc6.js",
-      "static/chunks/app/page-4f2adc99234d0d2b.js"
-    ],
-    "/benefits/page": [
-      "static/chunks/webpack-e6e4aca58fee368a.js",
-      "static/chunks/fd9d1056-ed5fdda155689b3b.js",
-      "static/chunks/117-b257473b6e8d511a.js",
-      "static/chunks/main-app-a04dffec9121eafd.js",
-      "static/chunks/141-c728dcfc57ec4cc6.js",
-      "static/chunks/app/benefits/page-2367f8c20c4a8b0c.js"
-    ],
     "/science/page": [
       "static/chunks/webpack-e6e4aca58fee368a.js",
       "static/chunks/fd9d1056-ed5fdda155689b3b.js",
@@ -60,6 +60,15 @@
       "static/chunks/main-app-a04dffec9121eafd.js",
       "static/chunks/141-c728dcfc57ec4cc6.js",
       "static/chunks/app/science/page-bf9c051a5423c02b.js"
+    ],
+    "/breathe/cardiac/page": [
+      "static/chunks/webpack-e6e4aca58fee368a.js",
+      "static/chunks/fd9d1056-ed5fdda155689b3b.js",
+      "static/chunks/117-b257473b6e8d511a.js",
+      "static/chunks/main-app-a04dffec9121eafd.js",
+      "static/chunks/141-c728dcfc57ec4cc6.js",
+      "static/chunks/181-b42e5279342468a1.js",
+      "static/chunks/app/breathe/cardiac/page-a5a470a71389392e.js"
     ],
     "/breathe/fire/page": [
       "static/chunks/webpack-e6e4aca58fee368a.js",
@@ -70,15 +79,6 @@
       "static/chunks/181-b42e5279342468a1.js",
       "static/chunks/app/breathe/fire/page-91483914132de79e.js"
     ],
-    "/breathe/wimhof/page": [
-      "static/chunks/webpack-e6e4aca58fee368a.js",
-      "static/chunks/fd9d1056-ed5fdda155689b3b.js",
-      "static/chunks/117-b257473b6e8d511a.js",
-      "static/chunks/main-app-a04dffec9121eafd.js",
-      "static/chunks/141-c728dcfc57ec4cc6.js",
-      "static/chunks/181-b42e5279342468a1.js",
-      "static/chunks/app/breathe/wimhof/page-197caa65cd0c2654.js"
-    ],
     "/breathe/[technique]/page": [
       "static/chunks/webpack-e6e4aca58fee368a.js",
       "static/chunks/fd9d1056-ed5fdda155689b3b.js",
@@ -88,14 +88,14 @@
       "static/chunks/181-b42e5279342468a1.js",
       "static/chunks/app/breathe/[technique]/page-dbfd8b672be12288.js"
     ],
-    "/breathe/cardiac/page": [
+    "/breathe/wimhof/page": [
       "static/chunks/webpack-e6e4aca58fee368a.js",
       "static/chunks/fd9d1056-ed5fdda155689b3b.js",
       "static/chunks/117-b257473b6e8d511a.js",
       "static/chunks/main-app-a04dffec9121eafd.js",
       "static/chunks/141-c728dcfc57ec4cc6.js",
       "static/chunks/181-b42e5279342468a1.js",
-      "static/chunks/app/breathe/cardiac/page-a5a470a71389392e.js"
+      "static/chunks/app/breathe/wimhof/page-197caa65cd0c2654.js"
     ]
   }
 }

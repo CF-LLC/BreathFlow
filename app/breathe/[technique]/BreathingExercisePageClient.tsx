@@ -84,14 +84,14 @@ export default function BreathingExercisePageClient({ params }: { params: { tech
 
   // If pattern doesn't exist, redirect to home
   useEffect(() => {
+    console.log("Technique param:", technique);
     if (!pattern) {
-      console.log("Pattern not found for technique:", technique)
-      router.push("/techniques")
+      console.log("Pattern not found for technique:", technique);
+      router.push("/techniques");
     } else {
-      // Initialize with the correct starting values
-      setSecondsLeft(pattern.inhale)
+      setSecondsLeft(pattern.inhale);
     }
-  }, [pattern, router, technique])
+  }, [pattern, router, technique]);
 
   // Handle the breathing timer
   useEffect(() => {

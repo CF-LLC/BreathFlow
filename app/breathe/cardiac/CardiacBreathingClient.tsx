@@ -24,7 +24,7 @@ export default function CardiacBreathingClient() {
   const [currentPhase, setCurrentPhase] = useState<"inhale" | "hold" | "exhale" | "holdAfterExhale">("inhale")
   const [secondsLeft, setSecondsLeft] = useState(cardiacPattern.inhale)
   const [totalCycles, setTotalCycles] = useState(0)
-  const basePath = typeof window !== "undefined" ? getBasePath() : ""
+  const basePath = getBasePath()
 
   // Handle the breathing timer
   useEffect(() => {

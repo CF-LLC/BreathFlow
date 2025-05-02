@@ -28,7 +28,7 @@ export default function WimHofBreathingClientPage() {
   const [breathCount, setBreathCount] = useState(0)
   const [isHoldingBreath, setIsHoldingBreath] = useState(false)
   const [holdTime, setHoldTime] = useState(0)
-  const basePath = typeof window !== "undefined" ? getBasePath() : ""
+  const basePath = getBasePath()
 
   // Handle the breathing timer
   useEffect(() => {

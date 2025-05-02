@@ -25,7 +25,7 @@ export default function FireBreathingClientPage() {
   const [secondsLeft, setSecondsLeft] = useState(firePattern.inhale)
   const [totalCycles, setTotalCycles] = useState(0)
   const [timer, setTimer] = useState(60) // 1 minute timer for Breath of Fire
-  const basePath = typeof window !== "undefined" ? getBasePath() : ""
+  const basePath = getBasePath()
 
   // Handle the breathing timer
   useEffect(() => {

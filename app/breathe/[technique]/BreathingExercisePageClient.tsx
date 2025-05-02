@@ -39,6 +39,34 @@ const breathingPatterns = {
     color: "from-purple-500 to-pink-600",
     textColor: "text-purple-400",
   },
+  cardiac: {
+    name: "Cardiac Coherence Breathing",
+    description: "Inhale for 5 seconds, exhale for 5 seconds to synchronize with your heart rate",
+    inhale: 5,
+    hold: 0, // No hold phase for cardiac coherence
+    exhale: 5,
+    color: "from-red-500 to-pink-600",
+    textColor: "text-red-400",
+  },
+  fire: {
+    name: "Breath of Fire",
+    description: "Rapid breathing through the nose with forceful exhales to energize the body",
+    inhale: 1,
+    hold: 0, // No hold phase for Breath of Fire
+    exhale: 1,
+    color: "from-amber-500 to-orange-600",
+    textColor: "text-amber-400",
+  },
+  wimhof: {
+    name: "Wim Hof Breathing Method",
+    description: "30-40 deep breaths, followed by breath retention and recovery breath",
+    inhale: 1.5,
+    hold: 0, // No hold phase for Wim Hof rapid breathing
+    exhale: 1.5,
+    color: "from-cyan-500 to-blue-600",
+    textColor: "text-cyan-400",
+  },
+  
 }
 
 export default function BreathingExercisePageClient({ params }: { params: { technique: string } }) {
